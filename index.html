@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      <link rel="stylesheet" href="./css/style.css">
+      <link rel="stylesheet" href="./css/lightbox.min.css">
+      <script type="text/javascript" src="./js/lightbox-plus-jquery.min.js"></script>
+      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css">
+      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+      <title>CyTech | Welcome</title>
+</head>
+<body>
+      <div class="menu">
+            <span></span>
+            <span></span>
+            <span></span>
+      </div>
+
+      <div class="logo">
+            <h2><a href="#main">CyTech</a></h2>
+      </div>
+
+      <div class="menu-bar">
+            <ul>
+                  <li><a href="index.html">Home</a></li>
+                  <li><a href="#html" class="htmls">HTML</a></li>
+                  <li><a href="#css" class="csss">CSS</a></li>
+                  <li><a href="#js" class="jss">Javascript</a></li>
+                  <li><a href="portfolio.html" class="ports">Portfolio</a></li>
+            </ul>
+      </div>
+      <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+      <script type="text/javascript">
+            $(document).ready(function(){
+                  $('.menu').click(function(){
+                        $('.menu').toggleClass('active')
+                        $('.menu-bar').toggleClass('active')
+                  })
+                  $('.htmls').click(function(){
+                        $('.menu').toggleClass('active')
+                        $('.menu-bar').toggleClass('active')
+                  })
+                  $('.csss').click(function(){
+                        $('.menu').toggleClass('active')
+                        $('.menu-bar').toggleClass('active')
+                  })
+                  $('.jss').click(function(){
+                        $('.menu').toggleClass('active')
+                        $('.menu-bar').toggleClass('active')
+                  })
+                  $('.ports').click(function(){
+                        $('.menu').toggleClass('active')
+                        $('.menu-bar').toggleClass('active')
+                  })
+            })
+      </script>
+
+      <div class="main" id="main">
+            <div class="showcase">
+                  <div class="showcase-box">
+                        <img src="./img/html5-css-javascript-logos.png" alt="">
+                  </div>
+            </div>
+            <div class="tagline">
+                  <h4>Learn Front-End Development</h4>
+            </div>
+            <a href="#intro">Learn Now</a>
+      </div>
+
+      <div id="intro" class="intro">
+            <h1>Introduction</h1>
+            <p>
+                  Trends in Front End Development are always changing -- what worked yesterday may not work today. This can make being a Front End Developer pretty challenging!
+            </p>
+            <br>
+            <p>
+                  But what’s most challenging about being a Front End Developer is also what’s most exciting – you’re always learning new technologies.
+            </p>
+            
+            <div class="FandB">
+                  <div class="boxes">
+                        <h2>Front End</h2>
+                        <div class="logo-intro">
+                              <img src="./img/html5.svg" alt="">
+                              <img src="./img/css3-alt.svg" alt="">
+                              <img src="./img/jsalt.png" alt="">
+                        </div>
+                        <p>
+                        The front end, or client side, of the web app is everything you see and interact with in the browser as a user of the application. 
+                        </p>
+                        <br>
+                        <p>
+                              A Front End Developer is a generic term for someone who builds the user-facing parts of websites and applications using HTML, CSS and JavaScript.
+                        </p>
+                  </div>
+                  <div class="boxes">
+                        <h2>Back End</h2>
+                        <div class="logo-intro">
+                              <img src="./img/php.svg" alt="">
+                              <img src="./img/python.svg" alt="">
+                              <img src="./img/java.svg" alt="">
+                        </div>
+                        <p>
+                              The back end, or server-side of the web application, where the application’s data is saved, updated, manipulated, and sent back to the client side.
+                        </p>
+                        <br>
+                        <p>
+                              Back End Developers use languages like Java, Python, Ruby and PHP to build the behind-the-scenes functionality of a website, such as storing and retrieving user data or securely accepting and storing credit card numbers.
+                        </p>
+                  </div>
+                  
+            </div>
+            <div class="btn-next">
+                  <a href="#tl" class="next">Next</a>
+                  <a href="#main" class="prev">Previous</a>
+            </div>
+            
+      </div>
+
+      <div class="techlearn" id="tl">
+            <h1>Technologies you’ll need to learn</h1>
+            <div class="techlogo">
+                  <div class="tech-box">
+                        <img src="./img/html5.svg" alt="">
+                        <h4>HyperText Markup Language</h4>
+                  </div>
+                  <div class="tech-box">
+                        <img src="./img/css3-alt.svg" alt="">
+                        <h4>Cascading Style Sheet</h4>
+                  </div>
+                  <div class="tech-box">
+                        <img src="./img/jsalt.png" alt="">
+                        <h4>Javascript</h4>
+                  </div>
+            </div>
+            <div class="btn-next">
+                  <a href="#html" class="next">Next</a>
+                  <a href="#intro" class="prev">Previous</a>
+            </div>
+      </div>
+
+      <div class="html" id="html">
+            <div class="tech-logo-box">
+                  <img src="./img/html5.png" alt="">
+                  <h2>Hyper Text Mark-up Language</h2>
+            </div>
+            <div class="detailstech">
+                  <p>HTML is the foundation of every web page. Without it everything on the internet will be a shapeless wall of text. With HTML you provide the web browser with information about how your content structure by defining its different parts.</p>
+            </div>
+            <div class="sample-img">
+                  <div class="sample-box">
+                        <a href="./img/htmltagsample.PNG" data-lightbox="preview"><img src="./img/htmltagsample.PNG" alt=""></a>
+                        <h4>Sample Tags</h4>
+                  </div>
+                  <div class="sample-box">
+                        <a href="./img/htmlsample.PNG" data-lightbox="preview"><img src="./img/htmlsample.PNG" alt=""></a>
+                        <h4>Sample Output</h4>
+                  </div>
+            </div>
+            <div class="btn-next">
+                  <a href="#css" class="next">Next</a>
+                  <a href="#tl" class="prev">Previous</a>
+            </div>
+      </div>
+
+      <div class="css" id="css">
+            <div class="tech-logo-box">
+                  <img src="./img/css3-alt.svg" alt="">
+                  <h2>Cascading Style Sheet</h2>
+            </div>
+            <div class="detailstech">
+                  <p>CSS or Cascading Style Sheet is design language with a lot of power. CSS help us describe the presentation of our webpages. We use CSS to define on how HTML should look and be layed out. We use CSS to make our webpage responsive, that means that they look good even in small devices like smartphones and tablets.</p>
+            </div>
+            <div class="sample-img">
+                  <div class="sample-box">
+                        <a href="./img/csssample.PNG" data-lightbox="previewcss"><img src="./img/csssample.PNG" alt=""></a>
+                        <h4>Sample CSS</h4>
+                  </div>
+                  <div class="sample-box">
+                        <a href="./img/cssoutput.PNG" data-lightbox="previewcss"><img src="./img/cssoutput.PNG" alt=""></a>
+                        <h4>Sample Output</h4>
+                  </div>
+            </div>
+            <div class="btn-next">
+                  <a href="#js" class="next">Next</a>
+                  <a href="#html" class="prev">Previous</a>
+            </div>
+      </div>
+
+      <div class="js" id="js">
+            <div class="tech-logo-box">
+                  <img src="./img/jsalt.png" alt="">
+                  <h2>Javascript</h2>
+            </div>
+            <div class="detailstech">
+                  <p>Javascript is the first programming language that you'll likely to learn as Front End Developer.It is use in the Back end, Front end, mobile and even desktop. Generally, front end developers write javascript to the browser using the DOM or Document Object Model. The DOM is like the representation of your webpage or application thata allows the javascript and the browser to communicate. Each HTML element on your webpages is represented by the DOM and you can use the DOM to manipulate those elements.</p>
+            </div>
+            <div class="sample-img">
+                  <div class="sample-box">
+                        <a href="./img/javascriptsample.PNG" data-lightbox="previewjs"><img src="./img/javascriptsample.PNG" alt=""></a>
+                        <h4>Sample CSS</h4>
+                  </div>
+                  <div class="sample-box">
+                        <a href="./img/javascriptoutput.PNG" data-lightbox="previewjs"><img src="./img/javascriptoutput.PNG" alt=""></a>
+                        <h4>Sample Output</h4>
+                  </div>
+            </div>
+            <div class="btn-next">
+                  <a href="#other" class="next">Next</a>
+                  <a href="#css" class="prev">Previous</a>
+            </div>
+      </div>
+
+      <div class="other" id="other">
+            <h1>Others</h1>
+            <div class="other-boxes">
+                  <div class="left">
+                        <h2>Tools</h2>
+                        <div class="left-details">
+                              <ul>
+                                    <li>Text Editor – Visual Studio Code, Sublime Text 3, Atom</li>
+                                    <li>Browser Developer Tools  – Chrome Dev Tools, Firefox dev tools</li>
+                                    <li>Version Control – Git & GitHub</li>
+                              </ul>
+                        </div>
+                        <div class="left-video">
+                              <video src="./vid/My Top 5 Free Text Editors For Web Development.mp4" controls></video>
+                        </div>
+                  </div>
+                  <div class="right">
+                        <h2>Other Important Technologies</h2>
+                        <div class="right-details">
+                              <ul>
+                                    <li>Sass / CSS Preprocessing</li>
+                                    <li>JavaScript Libraries: jQuery, React</li>
+                                    <li>JS Frameworks: Angular, Vue.js</li>
+                                    <li>Front End Framework: Bootstrap</li>
+                                    <li>Command Line, CLI</li>
+                                    <li>Module Loading/Bundling Tools: webpack, Rollup, Browserify</li>
+                                    <li>WordPress</li>
+                                    <li>Image Editor – Photoshop, Sketch</li>
+                                    <li>Wireframing Tools – Balsamiq$, Figma$</li>
+                              </ul>
+                        </div>
+                  </div>
+            </div>
+            <div class="btn-next">
+                  <a href="#middle" class="next">Next</a>
+                  <a href="#js" class="prev">Previous</a>
+            </div>
+      </div>
+      
+      <div class="middle" id="middle">
+            <h1>Follow Us</h1>
+            <a class="btn" href="https://www.facebook.com/lienohv1" target="_blank">
+                  <i class="fab fa-facebook-f"></i>
+            </a>
+            <a class="btn" href="#">
+                  <i class="fab fa-twitter"></i>
+            </a>
+            <a class="btn" href="#">
+                  <i class="fab fa-google"></i>
+            </a>
+            <a class="btn" href="#">
+                  <i class="fab fa-instagram"></i>
+            </a>
+            <a class="btn" href="#">
+                        <i class="fab fa-youtube"></i>
+            </a>
+
+            <div class="btn-next">
+                  <a href="#main" class="prev">Go Up</a>
+            </div>
+
+      </div>
+      <footer>Copyright &copy; 2018 | CyTech All Rights Reserved</footer>
+</body>
+</html>
